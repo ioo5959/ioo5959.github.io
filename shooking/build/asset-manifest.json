@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shooking/static/css/main.2703a967.css",
+    "main.js": "/shooking/static/js/main.6e113182.js",
+    "static/js/453.42c3c5ec.chunk.js": "/shooking/static/js/453.42c3c5ec.chunk.js",
+    "index.html": "/shooking/index.html",
+    "main.2703a967.css.map": "/shooking/static/css/main.2703a967.css.map",
+    "main.6e113182.js.map": "/shooking/static/js/main.6e113182.js.map",
+    "453.42c3c5ec.chunk.js.map": "/shooking/static/js/453.42c3c5ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2703a967.css",
+    "static/js/main.6e113182.js"
+  ]
+}
