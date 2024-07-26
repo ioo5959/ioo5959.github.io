@@ -1,0 +1,73 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/*
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+*/
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-navbar {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
+
+.content-box {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  width: 100%;
+  background-color: white;
+  text-align: left; /*글자 왼쪽 정렬*/
+  padding: 10px;
+  margin-left: 20px; /*박스 바깥쪽 왼쪽 여백 추가*/
+}
+
+.image-container {
+  width: 100%;
+  height: 50%; /* 박스의 절반을 채우도록 설정 */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 이미지가 컨테이너에 맞게 조정되도록 설정 */
+}
+
+.text-container {
+  padding: 10px;
+  text-align: left;
+}
