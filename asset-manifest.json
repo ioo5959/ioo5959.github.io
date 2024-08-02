@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-shooking/static/css/main.2703a967.css",
-    "main.js": "/react-shooking/static/js/main.e9a4dfcd.js",
+    "main.js": "/react-shooking/static/js/main.daf85640.js",
     "static/js/453.42c3c5ec.chunk.js": "/react-shooking/static/js/453.42c3c5ec.chunk.js",
     "index.html": "/react-shooking/index.html",
     "main.2703a967.css.map": "/react-shooking/static/css/main.2703a967.css.map",
-    "main.e9a4dfcd.js.map": "/react-shooking/static/js/main.e9a4dfcd.js.map",
+    "main.daf85640.js.map": "/react-shooking/static/js/main.daf85640.js.map",
     "453.42c3c5ec.chunk.js.map": "/react-shooking/static/js/453.42c3c5ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2703a967.css",
-    "static/js/main.e9a4dfcd.js"
+    "static/js/main.daf85640.js"
   ]
 }
