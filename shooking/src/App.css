@@ -1,6 +1,3 @@
-.App {
-  text-align: left;
-}
 
 .App-logo {
   height: 40vmin;
@@ -37,10 +34,17 @@
   }
 }
 
-.App-navbar {
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
   background-color: black;
-  width: 100%;
-  height: 50px;
+  height: 50px; 
+  display: 'flex';
+  justify-content: flex-start; /* 장바구니 아이콘을 왼쪽으로 배치 */
+  align-items: 'center';
+  padding: '0 20px';
 }
 
 .content-box {
@@ -54,11 +58,12 @@
   text-align: left; /*글자 왼쪽 정렬*/
   padding: 10px;
   margin-left: 20px; /*박스 바깥쪽 왼쪽 여백 추가*/
+  
 }
 
 .image-container {
   width: 100%;
-  height: 50%; /* 박스의 절반을 채우도록 설정 */
+  height: auto;
 }
 
 .image-container img {
@@ -68,6 +73,43 @@
 }
 
 .text-container {
-  padding: 10px;
+  margin: 10px 0;
   text-align: left;
+  padding: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3f4347;
+}
+
+.cart-count{
+  margin-left: 8px; /* 숫자가 아이콘 옆에 위치하도록 간격을 추가 */
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  color: 'black';
+  padding: '2px 6px';
+  font-size: '12px';
+  
+}
+
+.cart-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 20px;
+  padding: 10px;
 }
